@@ -1,0 +1,16 @@
+Only fork and if
+8 processes -- 8 obrabotchikov(write all by hands)
+NO UNIVERSAL FUNCTIONS
+50 -- 100 STRING FOR YOUR PROGRAM (mb a little more);
+
+Add obrabotchiki sobitiy
+use signAction
+
+
+problem is:
+	before cicle of signal
+	maker sure that all proceses exists
+	each process while created after set obrabotchik
+	write in file its PID
+end processes in the end of app;
+if some process create 2 processes, it must wait while 2 processes finish;
